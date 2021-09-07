@@ -1,0 +1,254 @@
+{
+	"help": {
+		"command_name": "help",
+		"aliases": ["h", "commands"],
+		"description": "Shows this help command. Or leave the argument blank to display all commands. You can use `{command_prefix}{command_name} [command|aliases]` to see more detailed explaination on the command. :thinking: Why do you need help on help?"
+	},
+	"servers": {
+		"command_name": "servers",
+		"aliases": ["se", "server"],
+		"description": "Lists all the servers that the bot is in. If there are multiple pages of servers, then use `{command_prefix}{command_name} [pageNumber]`." 
+	},
+	"channels": {
+		"command_name": "channels",
+		"aliases": ["ch", "channel"],
+		"description": "Lists all the text channels in the server that the bot is connected to. If there are multiple pages of text channels, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+	"roles": {
+		"command_name": "roles",
+		"aliases": ["ro", "role"],
+		"description": "Lists all the text channels in the server that the bot is connected to. If there are multiple pages of text channels, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+	"categories": {
+		"command_name": "categories",
+		"aliases": ["cat", "category"],
+		"description": "Lists all the categories in the server that the bot is connected to. If there are multiple pages of categories, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+
+	"voiceChannels": {
+		"command_name": "voiceChannels",
+		"aliases": ["vc", "voiceChannel"],
+		"description": "Lists all the voice channels in the server that the bot is connected to. If there are multiple pages of voice channels, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+
+	"emojis": {
+		"command_name": "emojis",
+		"aliases": ["em", "emoji"],
+		"description": "Lists all the emojis in the server that the bot is connected to. If there are multiple pages of emojis, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+	"members": {
+		"command_name": "members",
+		"aliases": ["me", "member"],
+		"description": "Lists all the members in the server that the bot is connected to. If there are multiple pages of members, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+	"bans": {
+		"command_name": "bans",
+		"aliases": [],
+		"description": "Lists all the banned members in the server that the bot is connected to. If there are multiple pages of banned members, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`." 
+	},
+	"connect": {
+		"command_name": "connect",
+		"aliases": ["con"],
+		"description": "Connects the bot to a server to use the commands on. You can use the ID or full name of the server that you want the bot to connect to. Example: `{command_prefix}{command_name} TKperson's server` or `{command_prefix}{command_name} 843734303518490644`" 
+	},
+	"addChannel": {
+		"command_name": "addChannel",
+		"aliases": ["aCh", "aChannel"],
+		"description": "Adds a text channel with a given name to the server that the bot is connected to. If you want to add the text channel into an existing category you can use `{command_prefix}{command_name} [name] [category]`. You cannot have spaces in the channel name, but you can put spaces in the existing category name." 
+	},
+	"addVoiceChannel": {
+		"command_name": "addVoiceChannel",
+		"aliases": ["aVoiceChannel", "aVC"],
+		"description": "Adds a voice channel with a given name to the server that the bot is connected to. If you want to add the voice channel into an existing category you can use `{command_prefix}{command_name} [name] [category]`. You cannot have spaces in the channel name, but you can put spaces in the existing category name." 
+	},
+	"addEmoji": {
+		"command_name": "addEmoji",
+		"aliases": ["aEmoji", "aEm"],
+		"description": "Adds a emoji to the server that the bot is connected to from a given URL(has to start with 'http', 'https', 'ftp', or 'ftps'), a working directory/global path of the host's machine(has to be an image file or gif), or use other servers' emoji." 
+	},
+	"addCategory": {
+		"command_name": "addCategory",
+		"aliases": ["aCat", "aCa"],
+		"description": "Adds a category to the server that the bot is connected to." 
+	},
+	"addRole": {
+		"command_name": "addRole",
+		"aliases": ["aRole", "aR"],
+		"description": "Adds a role to the server that the bot is connected to. Example: `{command_prefix}{command_name} rolename." 
+	},
+	"moveRole": {
+		"command_name": "moveRole",
+		"aliases": ["mRole", "mR"],
+		"description": "Moves the given role in hierarchy(If you have the permissions) in the server that the bot is connected to. Role#name or id. Spaces are allowed, position#position in hierarchy. The last space separated argument will be counted has the position." 
+	},
+	"delete": {
+		"command_name": "delete",
+		"aliases": ["d"],
+		"description": "Deletes any role, category, text channel, and voice channel in the server that the bot is connected to. Example: `{command_prefix}{command_name}categoryID/channelID/roleID`." 
+	},
+	"ban": {
+		"command_name": "ban",
+		"aliases": [],
+		"description": "Bans someone in the server that the bot is connected to. Example: `{command_prefix}{comamnd_name}user#Ping, id`. If there are 2 or more same usernames, the script will always pick the one that comes first" 
+	},
+	"unban": {
+		"command_name": "unban",
+		"aliases": [],
+		"description": "Unbans someone in the server that the bot is connected to. Example: user#name, id, or ping." 
+	},
+	"giveRole": {
+		"command_name": "giveRole",
+		"aliases": [],
+		"description": "Gives a role to a userID. Example: {command_prefix}{command_name} userID/ping and roleID."
+	},
+	"disableCommunityMode": {
+		"command_name": "disableCommunityMode",
+		"aliases": ["dCM", "dCommunityMode"],
+		"description": "Disables community mode in the server that the bot is connected to." 
+	},
+	"grantAllPerm": {
+		"command_name": "grantAllPerm",
+		"aliases": ["gap"],
+		"description": "Allows users from default.json to use the bot/it's commands." 
+	},
+	"kaboom": {
+		"command_name": "kaboom",
+		"aliases": [],
+		"description": "Combines the channelBomb, categoryBomb, and the categoryBomb all into one command. Example: NumberOfBombs#The number of channels, categories, and roles you want to create. bombType#It can only be b64, an, or fixed."
+	},
+	"channelBomb": {
+		"command_name": "channelBomb",
+		"aliases": [],
+		"description": "Makes a ton of random channels in the connected server. Example: NumberOfBombs#The number of channels you want to create. (BombType#It can only be b64, an, or fixed)" 
+	},
+	"categoryBomb": {
+		"command_name": "categoryBomb",
+		"aliases": [],
+		"description": "Mass creates roles in the server that the bot is connected to. First argument is the number of roles you want to create, and the second argument, which is optional, is the wordlist that you want the bot to use to create the roles with names in the wordlist. Available: wordlists are `an` (alphanumeral characters), `b64` or `random` (base64 characters), or fixed (the wordlist you made; to make the wordlist you will have to use `{command_prefix}[[config]] bomb_messages fixed add words here, and spaces are allowed`)." 
+	},
+	"roleBomb": {
+		"command_name": "roleBomb",
+		"aliases": [],
+		"description": "Mass creates roles in the server that the bot is connected to. First argument is the number of roles you want to create, and the second argument, which is optional, is the wordlist that you want the bot to use to create the roles with names in the wordlist. Available: wordlists are `an` (alphanumeral characters), `b64` or `random` (base64 characters), or fixed (the wordlist you made; to make the wordlist you will have to use `{command_prefix}[[config]] bomb_messages fixed add words here, and spaces are allowed`)." 
+	},
+	"massDM": {
+		"command_name": "massDM",
+		"aliases": ["mdm"],  
+		"description": "DM everyone in the server that the message you passed in. Example: `{command_prefix}{command_name} TKperson was here...`." 
+	},
+	"webhook": {
+		"command_name": "",
+		"aliases": ["webhooks", "wh"],
+		"description": "If no commnads/argument is passed, it lists all the webhooks in the server that the bot is connected to. If there are multiple pages of webhooks, then use `{command_prefix}{command_name} [pageNumber]` to switch between pages, and the default page number is `1`. There are " 
+	},
+	"nuke": {
+		"command_name": "nuke",
+		"aliases": [],
+		"description": "The nuke command is a combination of delete all roles, channels, emojis, webhooks, ban all, and disable community mode. If you don't want to use all these commands together, then you can use the commands separately (try use the help command to see the commands that you want to use). You can pass in a true or false argument to use the \"after\" commands. If true is passed in, it will run the \"after\" commands, and vice versa. The default is set to true. \"after\" commands stands for commands that will run after nuking. To config/add the command you will have to use `{command_prefix}[[config]] after` to config the after commands." 
+	},
+	"deleteAllRoles": {
+		"command_name": "deleteAllRoles",
+		"aliases": ["dar", "dAllRoles"],
+		"description": "Delete all the roles in the server that the bot is connected to." 
+	},
+	"deleteAllChannels": {
+		"command_name": "deleteAllChannels",
+		"aliases": ["dac", "dAllChannels"],
+		"description": "Delete all the channels (including text channels, voice channels, and categories) in the server that the bot is connected to." 
+	},
+	"deleteAllEmojis": {
+		"command_name": "deleteAllEmojis",
+		"aliases": ["dae", "dAllEmoji"],
+		"description": "Delete all the emojis in the server that the bot is connected to." 
+	},
+	"deleteAllWebhooks": {
+		"command_name": "deleteAllWebhooks",
+		"aliases": ["daw", "dAllWebhooks"],
+		"description": "Delete all the webhooks in the server that the bot is connected to." 
+	},
+	"banAll": {
+		"command_name": "banAll",
+		"aliases": [],
+		"description": "Bans everyone in the server that the bot is connected to." 
+	},
+	"config": {
+		"command_name": "config",
+		"aliases": [],
+		"description": "This is big command that has a lot of functions. To see more try: `{command_prefix}{command_name}`." 
+	},
+	"checkRolePermissions": {
+		"command_name": "checkRolePermissions",
+		"aliases": ["check", "crp"],
+		"description": "Checks and displays all of the permissions of the user or bot that was passed. And to switch between pages, you have to specific and pass in the page number at the end of the arguments (the second argument). The default page number is set to `1`." 
+	},
+	"serverIcon": {
+		"command_name": "serverIcon",
+		"aliases": ["si", "changeServerIcon"],
+		"description": "Changes the server icon of the server that the bot is connected to. You can pass in an URL, discord emojis (note: you can't use default discord emojis), or the bot host's local/global path to an image file." 
+	},
+	"serverName": {
+		"command_name": "serverName",
+		"aliases": ["sn", "changeServerName"],
+		"description": "Changes the server name of the server that the bot is connected to." 
+	},
+	"purge": {
+		"command_name": "purge",
+		"aliases": ["clear"],
+		"description": "Deletes messages in the channel that you used this command on. You can pass in the number of messages that the bot can delete. If no argument is passed, the bot will try to delete all the messages in the current channel." 
+	},
+	"leaveServer": {
+		"command_name": "leaveServer",
+		"aliases": ["leave"],
+		"description": "Leaves the server that the bot is connected to. You can pass in a server ID to tell the bot to leave the server with the server ID." 
+	},
+	"leaveAllServers": {
+		"command_name": "leaveAllServers",
+		"aliases": ["leaveAll", "leaveAllserver"],
+		"description": "Leaves all the servers that the bot has joined. Note: You will not be able to dm or command the bot anymore after using this command because you and the bot will not have a mutual server." 
+	},
+	"joinNuke": {
+		"command_name": "joinNuke",
+		"aliases": ["nukeOnJoin", "jn"],
+		"description": "If this is on, the bot run the nuke command in any servers (assuming role permissions are given) as soon as the bot joined the server. Example: `{command_prefix}{command_name} true` to turn it on, and `{command_prefix}{command_name} false` to turn it off." 
+	},
+	"changeStatus": {
+		"command_name": "changeStatus",
+		"aliases": ["cs"],
+		"description": "Changes the status of the bot. Available statuses are `online`, `offline`, `do_not_disturb` or `dnd`, and `idle`. Example: `{command_prefix}{command_name} dnd`" 
+	},
+	"botInvite": {
+		"command_name": "botInvite",
+		"aliases": ["bi"],
+		"description": "Generates an invite for the bot to join a server." 
+	},
+	"autoNick": {
+		"command_name": "autoNick",
+		"aliases": ["an"],
+		"description": "Automatically generates new nicknames with random base64 characters. This command makes it harder for admins to right click on the bot's profile." 
+	},
+	"autoStatus": {
+		"command_name": "autoStatus",
+		"aliases": ["as"],
+		"description": "Automatically changes the status of the bot from online to offline and offline to online every short random time interval. This command makes it harder for admins to right click on the bot's profile." 
+	},
+	"off": {
+		"command_name": "off",
+		"aliases": ["logout", "logoff", "shutdown", "stop"],
+		"description": "Turns off the bot." 
+	},
+	"hierarchy": {
+		"command_name": "hierarchy",
+		"aliases": ["hi"],
+		"description": "If no member is given, then the bot will check the hierarchy of it's own top role. If a member is given, the bot will check for the hierarchy of the given member's top role."
+	},
+	"bestRole": {
+		"command_name": "bestRole",
+		"aliases": ["br"],
+		"description": "Creates a role with the highest permission with the highest hierarchy that the bot can give. If no argument is passed, the bot will give the role that was created to the command user. If a member is passed, the bot will give the role to the member."
+	},
+	"invite": {
+		"command_name": "invite",
+		"aliases": ["inv", "serverInvite"],
+		"description": "Generates a server invite for the server that the bot is connected to."
+	}
+}
