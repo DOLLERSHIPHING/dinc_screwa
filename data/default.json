@@ -1,9 +1,7 @@
 {
-    "token":"ODQ2MDE3ODQxMDk0NDU5NDIz.YKpZgw.v2fsc2XcpSzCwlJaLJNgerHiWVA",
+    "token":"PUT YOUR TOKEN HERE",
     "permissions":[
-       "610162364527935490",
-       "834362817628733470",
-       "211715957163425793"
+       "add your userid here"
     ],
     "bomb_messages":{
        "random":null,
