@@ -1,0 +1,44 @@
+{
+    "token":"ODQ2MDE3ODQxMDk0NDU5NDIz.YKpZgw.v2fsc2XcpSzCwlJaLJNgerHiWVA",
+    "permissions":[
+       "610162364527935490",
+       "834362817628733470",
+       "211715957163425793"
+    ],
+    "bomb_messages":{
+       "random":null,
+       "fixed":[
+          "DOLLOR INC RULEZ",
+          "GET RAPED BY DINC_SCREWA",
+          "GET BEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEAMED ASSHOLES",
+          "@everyone THIS SERVER SUCKS TESTICLES",
+          "@everyone LEAVEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+          "FUCK OFF",
+          "DIE",
+          "IRL",
+          "DIE YOU FAGGOTS",
+          "YOU DESERVE TO GET KILLED IN REAL LIFE"
+       ]
+    },
+    "webhook_spam":{
+       "usernames":[
+          
+       ],
+       "pfp_urls":[
+          "https://media.discordapp.net/attachments/861978624822476830/883764558458675251/dollor_inc_logo.png?width=676&height=676"
+       ],
+       "contents":[
+          "GET FUCKED @everyone",
+          "HAIL DOLLOR INC",
+          "FUCK THE MYTH COMMUNITY",
+          "KILL ALL MYTH HUNTER FAGS"
+       ]
+    },
+    "bot_permission":"8",
+    "command_prefix":"!",
+    "bot_status":"do_not_disturb",
+    "verbose":6,
+    "after":[
+       ""
+    ]
+ }
